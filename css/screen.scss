@@ -1,3 +1,5 @@
+---
+---
 @mixin transition($tr) {
   -webkit-transition: $tr;
   -moz-transition: $tr;
@@ -11,7 +13,7 @@ ul, li {margin:0;padding:0;list-style: none}
 
 body {
   font-family: "museo-sans", "Helvetica Neue", Helvetica, sans-serif;
-  background-color: #ffffff;
+  background-color: #000;
   color: #333;
   font-size: 16px;
   font-weight: 300;
