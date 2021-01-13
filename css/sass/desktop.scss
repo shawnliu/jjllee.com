@@ -1,0 +1,109 @@
+/* 
+  sass --watch src/sass:src 
+*/
+
+@media screen and (min-width: 600px) {
+	body {
+	  font-size: 16px;
+	  font-weight: 300;
+	  line-height: 1.6em;
+	  &.home {
+      .wrapper {
+        padding: 15px;
+        width: 940px;
+        h1 {
+          float: left;
+          font-size: 32px;
+          font-weight: 600;
+          margin: 20px 0 0 0;          
+          width: 160px;
+        }
+      }
+      .intro {
+        p {
+          margin-left: 180px;
+        }
+        ul {
+          margin-left: 180px; 
+          li {
+            margin: 1em 0;
+          }
+        }
+      }
+	  }
+	  /* individual painting page */
+	  &.painting {
+	    .nav {
+	      padding-top: 40px;
+	    }
+	    .container {width: 800px;}
+	    .painting-show {width: 960px;}
+	    .footer {
+	      .left-col {display: none;}
+	    }
+	  }
+	}
+
+  #wall-2012 {
+    .paintings {
+      height: 514px;
+      margin: 20px auto;
+      position: relative;
+      width: 750px;
+    }
+    a.painting {
+      img {
+        margin: 0;
+      }
+      position: absolute;
+      top: 0;     
+      &.saugerties {
+        left: 23%;
+        width: 54%;
+      }
+      &.upstate {
+        left: 81%;
+        top: 50%;
+        width: 19%;
+      }
+      &.visiting {
+        left: 81%;
+        top: 10%;
+        width: 19%;
+      }
+      &.yellow {
+        left: 0;
+        top: 25%;
+        width: 19%;
+      }
+    }
+  }
+
+  #wall-2011 {
+    .row { width: 960px; margin: 0 auto; }
+    ul {
+      margin: 1em auto;
+      width: 790px;
+      *zoom: 1;
+      li {
+        img {
+          width: 100%;
+        }
+        float:left;
+        margin-right:20px;
+        padding-bottom: 20px;
+        width: 250px;
+        &:last-child {
+          margin: 0;
+        }
+      }
+      &:before, &:after {
+        display: table; content: ""; 
+      }
+      &:after {
+        clear: both;
+      }
+    }
+  }
+
+}

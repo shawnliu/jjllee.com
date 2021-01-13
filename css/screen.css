@@ -1,0 +1,196 @@
+/* reset */
+html {
+  margin: 0;
+  padding: 0;
+  border: 0; }
+
+body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, address, code, del, dfn, em, img, q, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, dialog, figure, footer, header, hgroup, nav, section {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+ul, li {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+body {
+  font-family: "museo-sans", "Helvetica Neue", Helvetica, sans-serif;
+  background-color: #ffffff;
+  color: #333;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.6em;
+  text-align: center;
+  /* individual painting page */
+  /* overwrite nav styles */ }
+  body img {
+    width: 100%; }
+  body.home .wrapper, body.home .footer {
+    width: 94%;
+    padding: 3%; }
+  body.home .portfolio {
+    width: 940px; }
+  body.painting .nav {
+    padding-top: 40px; }
+  body.painting .container {
+    width: 800px; }
+  body.painting .painting-show {
+    width: 960px; }
+  body.painting .footer .left-col {
+    display: none; }
+  body.default header ul li a.paintings, body.portfolio header ul li a.paintings {
+    border-bottom: 2px solid #ccc; }
+  body.info header ul li a.info {
+    border-bottom: 2px solid #ccc; }
+
+a {
+  color: #333; }
+  a:hover {
+    text-decoration: none; }
+
+em {
+  font-style: italic; }
+
+p {
+  margin: 1em 0; }
+
+h2 {
+  color: #999;
+  font-size: 21px;
+  font-weight: 100;
+  letter-spacing: 0.1em;
+  line-height: 1.2em;
+  margin: 1em 0 2em 0; }
+  h2::before, h2 .before {
+    position: absolute;
+    border-bottom: 1px solid #ccc; }
+
+/* Walls */
+#wall-2012 {
+  background-color: #fff;
+  padding: 0px 15px 60px 15px; }
+
+#wall-2011 {
+  background-color: #f1f1ed;
+  border-top: #eee;
+  padding: 60px 15px; }
+
+/* Portfolio styles */
+body.portfolio .painting {
+  padding: 15px 15px 30px 15px; }
+  body.portfolio .painting .caption {
+    font-size: 13px;
+    margin: 2em auto 1em;
+    width: 500px; }
+body.portfolio .landscape img {
+  max-width: 600px; }
+body.portfolio .portrait {
+  padding-top: 0; }
+  body.portfolio .portrait img {
+    max-height: 540px;
+    width: auto; }
+  body.portfolio .portrait .caption {
+    width: 400px; }
+
+/* Info page styles */
+body.info h2 {
+  color: #ccc;
+  font-size: 18px;
+  font-weight: 300;
+  margin: 2em 0 1em 0; }
+body.info .content {
+  text-align: left;
+  width: 600px; }
+
+.footer {
+  margin: 30px auto;
+  color: #888;
+  font-size: 14px;
+  font-weight: 100; }
+
+header {
+  background-color: #f9f9f9;
+  opacity: 0.9;
+  overflow: hidden;
+  position: fixed;
+  text-align: center;
+  width: 100%;
+  z-index: 900; }
+  header img {
+    margin-top: 0px;
+    width: 100%; }
+  header ul {
+    margin: 15px auto; }
+    header ul li {
+      display: inline-block;
+      width: auto; }
+      header ul li a {
+        color: #333;
+        font-size: 15px;
+        font-weight: 100;
+        margin: 3px 7px;
+        text-decoration: none;
+        padding: 4px 1px; }
+        header ul li a:hover {
+          border-bottom: 2px solid #666; }
+        header ul li a.name {
+          color: #333;
+          font-weight: 500; }
+
+.content {
+  margin: 0px auto;
+  padding: 90px 0 0 0; }
+  .content .intro {
+    margin: 20px auto; }
+    .content .intro p {
+      font-size: 18px; }
+
+/* show a full painting */
+.painting-show {
+  margin: 40px auto; }
+  .painting-show .left-col, .painting-show .right-col {
+    width: 60px; }
+  .painting-show .middle-col {
+    width: 800px; }
+  .painting-show .show {
+    background-color: transparent;
+    min-height: 500px; }
+    .painting-show .show img {
+      width: 100%; }
+    .painting-show .show .meta {
+      margin: 2em 0;
+      font-size: 18px; }
+      .painting-show .show .meta .title {
+        font-weight: 600; }
+  .painting-show .painting-nav {
+    padding: 250px 0 0 0; }
+    .painting-show .painting-nav a {
+      opacity: 0.6;
+      margin: 0 auto;
+      background: transparent url("../img/previous.png") no-repeat;
+      display: block;
+      width: 60px;
+      height: 60px;
+      overflow: hidden;
+      text-indent: 100%;
+      white-space: nowrap; }
+      .painting-show .painting-nav a:hover {
+        opacity: 1; }
+    .painting-show .painting-nav.next a {
+      background: transparent url("../img/next.png") no-repeat;
+      float: right; }
+
+/* clear row */
+.row, .container, .wrapper {
+  *zoom: 1; }
+
+.container:before, .container:after, .wrapper:before, .wrapper:after, .row:before, .row:after {
+  display: table;
+  content: ""; }
+
+.container:after, .wrapper:after, .row:after {
+  clear: both; }

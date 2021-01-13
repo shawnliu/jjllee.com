@@ -1,0 +1,11 @@
+{% include header.html %}
+{% include nav.html %}
+<div class="content">
+  <div class="painting {{ page.style }}">
+    <img src="/images/{{ page.painting }}" alt="{{ page.painting-title }}" />
+    <div class="caption">
+      {{content}}
+    </div>
+  </div>
+</div>
+{% include footer.html %}
