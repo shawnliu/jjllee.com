@@ -13,7 +13,7 @@ ul, li {margin:0;padding:0;list-style: none}
 
 body {
   font-family: "museo-sans", "Helvetica Neue", Helvetica, sans-serif;
-  background-color: #ffffff;
+  background-color: #f9f9f9;
   color: #333;
   font-size: 16px;
   font-weight: 300;
@@ -81,16 +81,15 @@ h2 {
 
 /* Walls */
 #wall-2021 {
-  background-color: #fff;
-  padding: 0px 15px 60px 15px;
-}
-#wall-2012 {
   background-color: #f1f1ed;
   padding: 60px 15px;
 }
+#wall-2012 {
+  background-color: #EBEBE5;
+  padding: 60px 15px;
+}
 #wall-2011 {
-  background-color: #eeeeee;
-  border-top: #eee;
+  background-color: #f1f1ed;
   padding: 60px 15px;
 }
 
@@ -180,7 +179,7 @@ header {
 
 .content {
   margin: 0px auto;
-  padding: 90px 0 0 0;
+  padding: 60px 0 0 0;
   .intro {
     margin: 20px auto;
     p {
