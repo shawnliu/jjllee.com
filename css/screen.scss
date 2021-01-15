@@ -13,7 +13,7 @@ ul, li {margin:0;padding:0;list-style: none}
 
 body {
   font-family: "museo-sans", "Helvetica Neue", Helvetica, sans-serif;
-  background-color: #000;
+  background-color: #ffffff;
   color: #333;
   font-size: 16px;
   font-weight: 300;
@@ -80,12 +80,16 @@ h2 {
 
 
 /* Walls */
-#wall-2012 {
+#wall-2021 {
   background-color: #fff;
   padding: 0px 15px 60px 15px;
 }
-#wall-2011 {
+#wall-2012 {
   background-color: #f1f1ed;
+  padding: 60px 15px;
+}
+#wall-2011 {
+  background-color: #eeeeee;
   border-top: #eee;
   padding: 60px 15px;
 }
