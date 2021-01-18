@@ -39,3 +39,5 @@ contact
 -------
 
 e-mail: juyinjudylee (at) gmail.com
+
+instagram: [@juyinjudylee](https://www.instagram.com/juyinjudylee/)
