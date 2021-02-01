@@ -19,6 +19,7 @@ education
 exhibitions
 -----------
 
+* 2020  "Winter Small Works," National Association of Women Artists, online exhibition
 * 2020  “Lockdown,” Williamsburg Art and Historical Center, Brooklyn, NY (Juror: Paulina Pobocha, Curator, Museum of Modern Art, NY)
 * 2012  “Small Matters of Great Importance,” Edward Hopper House Art Center, Nyack, NY
 * 2012  “Mid-Atlantic,” Hoyt Center for the Arts, New Castle, PA
