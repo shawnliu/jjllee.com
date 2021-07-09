@@ -15,12 +15,15 @@ body {
   font-family: "museo-sans", "Helvetica Neue", Helvetica, sans-serif;
   background-color: #f9f9f9;
   color: #333;
-  font-size: 16px;
+  font-size: 1.25rem;
   font-weight: 300;
   line-height: 1.6em;
   text-align: center;
+  .painting img {
+    margin-bottom: 30px;
+  }
   img {
-    width: 100%;
+    width: 90%;
   }
   &.home {
     .wrapper, .footer { width: 94%; padding: 3% }
@@ -44,6 +47,7 @@ body {
     }
   }
   &.info {
+    font-size: 1.05rem;
     header ul li a.info {
       border-bottom: 2px solid #ccc;
     }
@@ -67,11 +71,12 @@ p {
 
 h2 {
   color: #999;
-  font-size: 21px;
+  font-size: 2rem;
   font-weight: 100;
   letter-spacing: 0.1em;
   line-height: 1.2em;
   margin: 1em 0 2em 0;
+  
   &::before, .before {
     position: absolute;
     border-bottom: 1px solid #ccc;
@@ -99,14 +104,9 @@ body.portfolio {
     background-color: #f1f1ed;
     padding: 30px 15px;
     .caption {
-      font-size: 13px;
+      font-size: 1.3rem;
       margin: 2em auto 1em;
       width: 500px;
-    }
-  }
-  .landscape {
-    img {
-      max-width: 600px;
     }
   }
   .portrait {
@@ -124,21 +124,63 @@ body.portfolio {
 body.info {
   h2 {
     color: #ccc;
-    font-size: 18px;
+    font-size: 2rem;
     font-weight: 300;
     margin: 2em 0 1em 0;
   }
   .content {
     text-align: left;
-    width: 600px;
+    width: 80%;
+    padding: 5rem;
+    padding-top: 7.5rem;
+    font-size: 1.5rem;
+  }
+  .footer {
+    background-color: #f9f9f9;
   }
 }
 
 .footer {
-  margin: 30px auto;
+  margin: 0px auto;
+  width: 50%;
   color: #888;
-  font-size: 14px;
+  font-size: 1.5rem;
   font-weight: 100;
+  padding: 1rem;
+  background-color: #f1f1ed;
+  width: 100%;
+  a {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    div#ig-wrapper {
+      background-color: #000;
+
+      height: 4rem;
+      width: 4rem;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      border: solid 1px black;
+      img {
+        opacity: 100%;
+        margin: auto auto;
+        height: 2.5rem;
+        width: 2.5rem;
+        background-color: transparent;
+      }
+    }
+    
+    span {
+      &:hover {
+        color: #888;
+      }
+      display: none;
+      text-decoration: underline;
+    }
+  }
 }
 
 header {
@@ -149,18 +191,18 @@ header {
   text-align: center;
   width: 100%;
   z-index: 900;
-  img {
-    margin-top: 0px;
-    width: 100%;
-  }
+  height: 6.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   ul {
-    margin: 15px auto;
     li {
+      margin: 15px auto;
       display: inline-block;
       width: auto;
       a {
         color: #333;
-        font-size: 15px;
+        font-size: 1.75rem;
         font-weight: 100;
         margin: 3px 7px;
         text-decoration: none;
@@ -237,3 +279,4 @@ header {
   display: table; content: ""; 
 }
 .container:after, .wrapper:after, .row:after {clear: both;}
+
