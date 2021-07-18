@@ -5,30 +5,6 @@
 	  font-size: 16px;
 	  font-weight: 300;
 	  line-height: 1.6em;
-	  &.home {
-      .wrapper {
-        padding: 15px;
-        width: 940px;
-        h1 {
-          float: left;
-          font-size: 32px;
-          font-weight: 600;
-          margin: 20px 0 0 0;          
-          width: 160px;
-        }
-      }
-      .intro {
-        p {
-          margin-left: 180px;
-        }
-        ul {
-          margin-left: 180px; 
-          li {
-            margin: 1em 0;
-          }
-        }
-      }
-	  }
 	  /* individual painting page */
 	  &.painting {
 	    .nav {
