@@ -121,6 +121,9 @@
           margin: 0;
         }
       }
+      &#special {
+        width: 520px;
+      }
       &:before, &:after {
         display: table; content: ""; 
       }
