@@ -140,6 +140,16 @@ body.info {
   color: #888;
   font-size: 14px;
   font-weight: 100;
+  a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    svg {
+      height: 30px;
+      width: 30px;
+    }
+  }
 }
 
 header {
