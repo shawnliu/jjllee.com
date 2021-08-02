@@ -82,6 +82,9 @@
   #wall-2011 {
     .row { width: 960px; margin: 0 auto; }
     ul {
+      &#special {
+        width: 520px;
+      }
       margin: 1em auto;
       width: 790px;
       *zoom: 1;

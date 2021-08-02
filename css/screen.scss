@@ -7,12 +7,11 @@
 }
 
 /* reset */
-html {margin:0;padding:0;border:0;overflow-x:hidden;}
+html {margin:0;padding:0;border:0;}
 body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, address, code, del, dfn, em, img, q, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, dialog, figure, footer, header, hgroup, nav, section {margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}
 ul, li {margin:0;padding:0;list-style: none}
 
 body {
-  overflow-x: hidden;
   font-family: "museo-sans", "Helvetica Neue", Helvetica, sans-serif;
   background-color: #f9f9f9;
   color: #333;
@@ -140,6 +139,10 @@ body.info {
   color: #888;
   font-size: 14px;
   font-weight: 100;
+  a svg {
+    height: 30px;
+    width: 30px;
+  }
 }
 
 header {
