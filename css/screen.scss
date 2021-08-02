@@ -140,12 +140,9 @@ body.info {
   color: #888;
   font-size: 14px;
   font-weight: 100;
-  a {
+  a svg {
+    height: 30px;
     width: 30px;
-    svg {
-      height: 30px;
-      width: 30px;
-    }
   }
 }
 
