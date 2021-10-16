@@ -114,4 +114,29 @@
     }
   }
 
+  /* individual painting page */
+  body.portfolio {
+    .landscape {
+      img {
+        max-width: 70%;
+      }
+    }
+    .portrait {
+      img {
+        max-height: 600px;
+        width: auto;
+      }
+    }
+    .caption {
+      width: 400px;
+    }
+  }
+
+  /* Info page styles */
+  body.info {
+    .content {
+      margin: 0 auto;
+      width: 600px;
+    }
+  }
 }
