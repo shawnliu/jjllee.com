@@ -78,6 +78,16 @@ h2 {
   }
 }
 
+.content {
+  margin: 0px auto;
+  padding: 60px 0 0 0;
+  .intro {
+    margin: 20px auto;
+    p {
+      font-size: 18px;
+    }
+  }
+}
 
 /* Walls */
 #wall-2021 {
@@ -91,6 +101,12 @@ h2 {
 #wall-2011 {
   background-color: #f1f1ed;
   padding: 60px 15px;
+}
+
+/* A bit of spacing between each painting */
+a.painting {
+  display: block;
+  margin: 12px 0;
 }
 
 /* Portfolio styles */
@@ -177,17 +193,6 @@ header {
           font-weight: 500;
         }
       }
-    }
-  }
-}
-
-.content {
-  margin: 0px auto;
-  padding: 60px 0 0 0;
-  .intro {
-    margin: 20px auto;
-    p {
-      font-size: 18px;
     }
   }
 }
